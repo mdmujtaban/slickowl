@@ -1,0 +1,186 @@
+.box {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    float: left;
+  }
+  .add {
+    clear: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: blue;
+    margin: 0 10px;
+    padding: 2px;
+  }
+
+  .adbck, .before-addback, .after-addb {
+    margin: 5px;
+    padding: 5px;
+  }
+  .border {
+    border: 2px solid red;
+  }
+  .background {
+    background: yellow;
+  }
+  .left, .right {
+     margin: 5px;
+    padding: 5px;
+    width: 45%;
+    float: left;
+  }
+  .right {
+    margin-left: 3%;
+  }
+
+
+
+  #draggable { width: 150px; height: 150px; padding: 0.5em; border: 5px solid hotpink; background-color: cyan; }
+
+
+  #draggable2 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; background-color: green; border: 3px solid red; }
+  #droppable2 { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; background-color: green; border: 3px solid red; }
+
+
+  #resizable { width: 150px; height: 150px; padding: 0.5em; background-color: lightblue; border: 5px solid #444444;}
+  #resizable h3 { text-align: center; margin: 0; }
+
+
+  .toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+    .ui-effects-transfer { border: 2px dotted gray; }
+
+
+.timer_button{
+  width: 100px;
+  height: 50px;
+}
+
+.countup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.countup .timeel {
+  display: inline-block;
+  padding: 10px;
+  background: #151515;
+  margin: 0;
+  color: white;
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 10px 0 0 10px;
+}
+
+.countup span[class*="timeRef"] {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  background: #e8c152;
+  color: black;
+}
+
+
+h1 {
+  font-size:     72px;
+  line-height:   1.5;
+  color: #2c3e50;
+  font-weight:   100;
+}
+
+#container {
+  width:  980px;
+  margin: 0 auto;
+}
+
+section {
+  height: 300px;
+ 
+}
+
+.boxx{
+  height: 300px;
+}
+.box1{
+background-color: red;
+margin-top: 10px;
+}
+.box2{
+  margin-top: 10px;
+background-color: green;
+}
+.box3{
+  margin-top: 10px;
+background-color: pink;
+}
+.box4{
+  margin-top: 10px;
+  background-color: cyan;
+}
+
+.navigation {
+      margin-bottom: 150px;
+    }
+
+
+.slider1,.boxx2 h4{
+
+  text-align: center;
+}
+ .boxx1{
+  width: 300px;
+  height: 120px;
+  
+  background-color: #444555;
+  border: 5px solid lightblue;
+  color:#fff;
+  font-size: 25px;
+  
+ }   
+ .boxx2{
+  width: 300px;
+  height: 120px;
+ 
+  background-color: cyan;
+  border: 5px solid lime;
+  font-size: 25px;
+ }   
+
+ .owl-theme .owl-nav {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+
+.responsive .slick-next{
+
+    color: green;
+    display: block;
+    position: absolute;
+    top: 210px;
+    left: 800px;
+
+}
+
+.responsive .slick-prev{
+  display: block;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    color: red;
+}
+.img-slide .slick-next{
+ color: green;
+    display: block;
+    position: absolute;
+    top: 700px;
+    left: 500px;
+}
+.img-slide .slick-prev{
+  display: block;
+    position: absolute;
+    top: 700px;
+    left: 200px;
+    color: red;
+}
